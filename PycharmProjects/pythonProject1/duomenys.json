@@ -1,0 +1,14 @@
+{
+    "knygos": [
+        {
+            "id": 1,
+            "pavadinimas": "Python pradziamokslis",
+            "autorius": "Petras pertraitis"
+        },
+        {
+            "id": 2,
+            "pavadinimas": "Ismok programuoti su python",
+            "autorius": "Antanas Antanavicius"
+        }
+    ]
+}

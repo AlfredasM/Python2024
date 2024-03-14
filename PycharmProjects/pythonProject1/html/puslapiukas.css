@@ -1,0 +1,33 @@
+
+
+body{
+    font-family: "Arial Black";
+    font-size: 20px;
+
+
+}
+
+button{
+            border: 4px solid rgba(red);
+            background-color: #002aff;
+            border-radius: 10px ;
+            color: #2be22e;
+}
+
+.content {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container1 {
+    font-family: Arial
+    color: #e22b5c;
+;
+}
+
+
+    .container2
+    {
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "vartotojai": [
+        {
+            "vardas": "Jonas",
+            "amzius": 30,
+            "miestas": "Vilnius"
+        },
+        {
+            "vardas": "Antanas",
+            "amzius": 32,
+            "miestas": "Kaunas"
+        }
+    ]
+}

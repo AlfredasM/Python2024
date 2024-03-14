@@ -1,0 +1,36 @@
+
+# CRUD Create = prideti, R = Read - perziureti U = Update - Atnaujinti D = Delete - Istrinti
+prekes = []
+
+while True:
+    ivestis = input("Pasirinkite veiksma: prideti, perziureti, pasalinti, iseiti_> ")
+    if ivestis == 'iseiti':
+        break
+    elif ivestis == 'prideti':
+        preke = input("Iveskite prekes pavadinima_>")
+        prekes.append(preke)
+    elif ivestis == 'pasalinti':
+        preke = input("Iveskite pasalinamos prekes pavadinima_>")
+        try:
+            prekes.remove(preke)
+        except ValueError:
+            print("Tokios prekes sarase nera!")
+    elif ivestis == 'perziureti':
+        print("Prekiu sarasas:")
+        for preke in prekes:
+            print(preke)
+    else:
+        print("Neteisingas veiksmas!")
+Sukurkite Python programą, kuri leistų vartotojui įvesti Lietuvos miestų temperatūras, saugotų šias temperatūras žodyne, kur raktai yra miestų pavadinimai, o reikšmės - temperatūrų sąrašai. Programa turėtų apdoroti klaidingas temperatūros įvestis (pvz., kai įvedamas tekstas vietoj skaičiaus) ir leisti vartotojui gauti bet kurio miesto vidutinę temperatūrą.
+
+Naudoti žodyną (dict) temperatūrų saugojimui: miestų pavadinimai kaip raktai ir temperatūrų sąrašai kaip reikšmės.
+Leisti vartotojui pridėti temperatūras miestams. Jei miesto dar nėra žodyne, jį pridėti; jei yra, temperatūrą pridėti prie miesto temperatūrų sąrašo.
+Įgyvendinti klaidų valdymą naudojant try ir except blokus, kad būtų pagauti neteisingi temperatūros įvedimai.
+
+Suteikti vartotojui galimybes:
+
+    Pridėti naują temperatūrą miestui.
+    Rodyti pasirinkto miesto vidutinę temperatūrą.
+    Baigti programos darbą.
+
+    ivestis = input()

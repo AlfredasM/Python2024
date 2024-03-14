@@ -1,0 +1,13 @@
+{
+    "studentai": [
+        {
+            "vardas": "Petras",
+            "amzius": 25
+        },
+        {
+            "vardas": "Petras",
+            "amžius": 25,
+            "studijų programa": "Chemija"
+        }
+    ]
+}
